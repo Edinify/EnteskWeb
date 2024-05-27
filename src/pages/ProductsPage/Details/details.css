@@ -1,0 +1,78 @@
+.product-details {
+  display: flex;
+  width: 100%;
+  border: 1px solid #482AFF ;
+  position: relative;
+  padding: 36px;
+  border-radius: 20px;
+}
+
+.product-details .details-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.product-details .details-left .save-icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.product-details .details-left .details-img {
+  width: 280px;
+  height: 272px;
+  background-color: #f2f0ff;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.product-details .details-left .details-img img {
+  width: 50%;
+  height: 50%;
+}
+
+.product-details .details-left .details-header {
+  width: 100%;
+}
+
+.product-details .details-left .details-header h4 {
+  color: #482aff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.product-details .product-content {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.product-details .product-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #482aff;
+}
+.product-details .order-btn{
+  position: absolute;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  right: 10px;
+}
+
+.product-details .order-btn button {
+  background-color: #FBB116;
+  border-radius: 10px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+
+}

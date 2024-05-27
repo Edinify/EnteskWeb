@@ -1,0 +1,126 @@
+.product-search {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.product-search-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #482aff;
+  padding: 10px 20px;
+}
+
+.products-page .cards {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-search input {
+  width: 600px;
+  border: none;
+}
+
+.product-search input:focus {
+  outline: none;
+}
+
+.product-search .search-icon {
+  position: absolute;
+  right: 0;
+  background-color: rgb(72, 43, 255);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+}
+
+.product-search .search-icon svg {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.product-search input::placeholder {
+  color: #00000033;
+}
+
+.container {
+  padding: 40px;
+}
+
+
+
+.products-page .cards .card {
+  border: 1px dashed #482aff;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.products-page .cards .card .card-container  {
+  /* padding: 50px; */
+  /* border: 1px solid; */
+  border-radius: 20px;
+  background-color: #f2f0ff;
+  padding: 30px;
+
+}
+
+.products-page .cards .card .card-img {
+  height: 40px;
+}
+
+.products-page .cards .card .card-img img {
+  height: 100%;
+}
+
+.products-page .cards .card .card-content {
+  background-color: #482aff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.products-page .cards .card .card-content p {
+  margin: 0;
+}
+
+.products-page .more-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.products-page .more-button button {
+  background-color: #482aff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+@media screen and (max-width:1200px) {
+  .products-page .cards {
+   
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

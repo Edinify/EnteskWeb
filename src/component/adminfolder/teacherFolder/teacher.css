@@ -1,0 +1,288 @@
+.main-teacher-page{
+  margin-top: 60px;
+}
+
+
+
+.main-teacher-page button{
+  border: none;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+
+.main-teacher-page
+.create-comment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+
+.main-teacher-page
+.create-comment form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main-teacher-page
+.create-comment form textarea{
+  padding: 20px 0px 0px 30px;
+  border-radius: 20px;
+  border: 7px double rgb(136, 136, 134);
+  outline: 0 !important;
+}
+
+
+
+.main-teacher-page
+.teacher-menu div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.main-teacher-page
+.teacher-menu p{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+
+.student_info{
+  width: 500px;
+}
+
+
+.student_info 
+form input {
+  margin: 30px auto 10px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid #482AFF;
+}
+
+
+.main-teacher-page
+.infoComponent{
+  border: 3px solid #482AFF;
+  position: relative;
+  border-radius: 20px;
+}
+
+.main-teacher-page
+.infoComponent .close{
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 100px;
+  padding: 5px 12px;
+}
+
+.main-teacher-page
+.infoComponent span{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 1px solid;
+  border-radius: 100px;
+  padding: 6px 12px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Schedule-section */
+
+.Schedule-section{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Schedule-section form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Schedule-section
+.Schedule-list{
+  width: 90%;
+  height: 75%;
+  padding: 20px;
+}
+
+/* responsive */
+
+@media(min-width:768px){
+  .Schedule-section .mobile-box {
+    display: none;
+  }
+}
+
+  @media(max-width:768px){
+    /* .Schedule-section form {
+      display: none;
+    } */
+    .Schedule-section > div > div {
+      display: none;
+    }
+    
+    .Schedule-section > div {
+      width: 100%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Schedule-section .student_info{
+      width: 90%;
+      margin-top: 50px;
+    }
+
+    .Schedule-section .mobile-box {
+      display: block;
+      width: 85%;
+      height: 90%;
+      overflow-y: scroll;
+      margin: 5px;
+    }
+    .Schedule-section .mobile-box > div{
+      padding: 5px;
+      border: 1px solid;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    .Schedule-section .mobile-box > div p{
+      border-bottom: 0.5px solid ;
+    }
+  }
+
+
+/* Calendar-section */
+
+
+.Calendar-section{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+
+.Calendar-section ul li{
+  list-style: none;
+} 
+/* responsive */
+
+@media(min-width:991px){
+  .Calendar-section  > div ul {
+    display: none;
+  } 
+}
+
+@media(max-width:991px){
+  .Calendar-section{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Calendar-section  ul{
+    display: none;
+  }
+
+  .Calendar-section > div{
+    width: 80%;
+    height: 90%;
+    overflow: scroll;
+  }
+
+  .Calendar-section  > div ul {
+    display: block;
+    border: 1px dashed;
+    border-radius: 20px;
+    padding: 20px;
+  } 
+}
+
+/* Finished-class-Section */
+
+
+.Finished-class-Section{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Finished-class-Section 
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* responsive */
+
+@media(min-width:768px){
+  .Finished-class-Section .mobile-box{
+    display: none;
+  }
+}
+
+@media(max-width:768px){
+  .Finished-class-Section > article table {
+    display: none;
+  }
+  .Finished-class-Section > article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Finished-class-Section .mobile-box {
+    width: 85%;
+    height: 90%;
+    overflow-y: scroll;
+    margin: 5px;
+  }
+  .Finished-class-Section .mobile-box > div{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .Finished-class-Section .mobile-box > div p{
+    border-bottom: 0.5px solid ;
+  }
+}

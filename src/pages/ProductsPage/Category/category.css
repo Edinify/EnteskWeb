@@ -1,0 +1,25 @@
+.category-page .category-header{
+    margin: 20px;
+}
+
+
+.category-page .category-header .category-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-page .category-header .category-list ul li  {
+    margin: 0 10px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(72, 43, 255);
+}
+
+
+.category-page .category-header .category-list ul li  a {
+    text-decoration: none;
+    color: white;
+
+}

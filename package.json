@@ -55,8 +55,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server":"json-server --watch data/data.json --port 3003 ",
-    "build": "react-scripts  build  build",
+    "build": "react-scripts  build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

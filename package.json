@@ -22,7 +22,7 @@
     "json-server": "^1.0.0-beta.0",
     "leva": "^0.9.27",
     "lodash.shuffle": "^4.2.0",
-    "react": "^17.0.2",
+    "react": "^18.0.2",
     "react-alert": "^7.0.3",
     "react-alert-template-basic": "^1.0.2",
     "react-bootstrap": "^2.0.3",
@@ -54,9 +54,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "server":"json-server --watch data/data.json --port 3003 ",
-    "build": "react-scripts  build --openssl-legacy-provider build",
+    "build": "react-scripts  build  build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

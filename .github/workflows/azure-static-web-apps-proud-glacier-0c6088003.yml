@@ -19,7 +19,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Dependencies
-        run: npm install --force react-scripts@latest
+        run: npm install --force react-scripts@latest,
+             npm install webpack webpack-cli --save-dev
 
       - name: Build
         run: |

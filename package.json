@@ -22,7 +22,7 @@
     "json-server": "^1.0.0-beta.0",
     "leva": "^0.9.27",
     "lodash.shuffle": "^4.2.0",
-    "react": "^18.2.0",
+    "react": "^17.0.2",
     "react-alert": "^7.0.3",
     "react-alert-template-basic": "^1.0.2",
     "react-bootstrap": "^2.0.3",

@@ -33,14 +33,10 @@ jobs:
 
       - name: Install Dependencies
         run: npm install --force
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
-
+        
       - name: Build
         run: |
           CI=false npm run build
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Build And Deploy
         id: builddeploy

@@ -9,7 +9,7 @@ import { FaBars, FaStream } from "react-icons/fa";
 import GetDimension from "../functions/getDimension";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { FaBasketShopping } from "react-icons/fa6";
+// import { FaBasketShopping } from "react-icons/fa6";
 import { BASKET_ACTION_TYPE } from "../../reducer/actionType";
 
 const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
@@ -29,9 +29,7 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
     dispatch({ type: BASKET_ACTION_TYPE.GET_BASKET_DATA, payload: storedBasket });
   }, [dispatch]);
 
-  const {basket} = useSelector((state) => state.basket);
 
-  console.log(basket,"basket")
 
 
   // logo icon animation

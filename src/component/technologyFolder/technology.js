@@ -1,5 +1,4 @@
-import { useSpring, animated } from "react-spring";
-import { React, useEffect, useState, useRef } from "react";
+import {  animated } from "react-spring";
 import { Link } from "react-router-dom";
 import leaf from "../../images/leaf.png";
 import brush from "../../images/brush.png";
@@ -38,7 +37,7 @@ const TecnologyBanner = (props) => {
   } else {
     const Course = allData.Technology;
     Course.map((subject, index) => {
-      return (data = subject), (name = subject.name);
+      return( (data = subject) , (name = subject.name))
     });
   }
 

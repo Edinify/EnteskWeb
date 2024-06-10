@@ -1,6 +1,5 @@
-import React, { useEffect, useState,useRef } from 'react'
 import { Link} from 'react-router-dom'
-import {useSpring, animated} from 'react-spring'
+import { animated} from 'react-spring'
 import leaf from '../../images/leaf.png'
 import brush from '../../images/brush.png'
 import circle from '../../images/circle.png'

@@ -9,7 +9,7 @@ const SectionTwo = () => {
 
 
 
-  const [opacity, setOpacity] = useState(0);
+  // const [opacity, setOpacity] = useState(0);
   const myref = useRef(null);
   // cons
   useEffect(() => {
@@ -33,19 +33,19 @@ const SectionTwo = () => {
     
     
 
-  const Animation = useSpring({
-		to: [{ 
-      opacity: Scroll - 300 < scrollPosition ? 1 : 0,
-      height: Scroll - 300 < scrollPosition ? "450px": '0px'
-    }],
-		from: {
-      opacity: 0,
-      height: "0px"
-      },
-    config: {
-      duration: 1000
-    }
-	});
+  // const Animation = useSpring({
+	// 	to: [{ 
+  //     opacity: Scroll - 300 < scrollPosition ? 1 : 0,
+  //     height: Scroll - 300 < scrollPosition ? "450px": '0px'
+  //   }],
+	// 	from: {
+  //     opacity: 0,
+  //     height: "0px"
+  //     },
+  //   config: {
+  //     duration: 1000
+  //   }
+	// });
   
 
   return (

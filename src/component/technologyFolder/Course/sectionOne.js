@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import poster from '../../../images/guneshsistemi.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

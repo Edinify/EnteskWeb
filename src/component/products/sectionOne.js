@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function SectionOne(props) {
 
-  const  {executeScroll} = props
+  // const  {executeScroll} = props
   return (
     <article>
       <div className="container">

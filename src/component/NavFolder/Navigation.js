@@ -437,7 +437,7 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                     </Link>
                   </li>
 
-                  {/* <li>
+                  <li>
                     <Link
                       to={{
                         pathname: "/məhsullar",
@@ -448,7 +448,7 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                     >
                       məhsullar
                     </Link>
-                  </li> */}
+                  </li>
                   <li
                     style={{
                       cursor: "pointer",
@@ -533,7 +533,7 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                       əlaqə
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <Link
                       to={{
                         pathname: "/məhsullar",
@@ -544,7 +544,7 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                     >
                       məhsullar
                     </Link>
-                  </li> */}
+                  </li>
                 </ul>
               </animated.div>
             </>
@@ -681,7 +681,7 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                   əlaqə
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link
                   to={{
                     pathname: "/məhsullar",
@@ -692,7 +692,7 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                 >
                   məhsullar
                 </Link>
-              </li> */}
+              </li>
             </ul>
           )}
         </animated.div>

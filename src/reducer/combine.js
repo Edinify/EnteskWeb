@@ -9,6 +9,7 @@ import studentReducer from './reducer/studentReducer'
 import teachertable from './reducer/teacherTable'
 import calendarReducer from './reducer/calendarReducer'
 import { basketReducer } from "./reducer/basketReducer";
+import { productReducer } from "./reducer/productReducer";
 
 
 export default combineReducers({
@@ -20,5 +21,6 @@ export default combineReducers({
   teachertable,
   studentReducer,
   calendarReducer,
-  basket:basketReducer
+  basket:basketReducer,
+  products:productReducer
 })

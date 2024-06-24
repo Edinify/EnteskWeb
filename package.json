@@ -54,9 +54,10 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-     "start": "react-scripts start --openssl-legacy-provider",
-    "build": "CI=false react-scripts  build  --openssl-legacy-provider",
-    "test": "react-scripts test --openssl-legacy-provider",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "server": "json-server --watch data/data.json --port 3003 ",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

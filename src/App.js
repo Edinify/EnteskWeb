@@ -72,12 +72,10 @@ function App() {
             <Route exact path="/About">
               <About handlerSideClose={handlerSideClose} />
             </Route>
-            <Route path="/məhsullar">
-              <ProductsPage handlerSideClose={handlerSideClose} />
-            </Route>
-            <Route path="/məhsullar/:id">
-              <ProductDetails handlerSideClose={handlerSideClose} />
-            </Route>
+            <Route path="/məhsullar" exact>
+            <ProductsPage handlerSideClose={handlerSideClose} />
+          </Route>
+          <Route path="/məhsullar/:id" component={ProductDetails} />
             <Route path="/category">
               <Category handlerSideClose={handlerSideClose} />
             </Route>

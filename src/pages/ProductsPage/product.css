@@ -79,9 +79,21 @@
 }
 
 .products-page .cards .card .card-img {
-  height: 40px;
+  /* height: 40px; */
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #482aff;
 }
 
+
+.products-page .cards .card .card-img span{
+  font-size: 20px;
+}
 .products-page .cards .card .card-img img {
   height: 100%;
 }

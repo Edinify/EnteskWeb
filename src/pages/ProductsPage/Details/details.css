@@ -39,6 +39,10 @@
 
 .product-details .details-left .details-header {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .product-details .details-left .details-header h4 {

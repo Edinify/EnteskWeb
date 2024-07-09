@@ -1,5 +1,5 @@
 .product-search {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +13,7 @@
   border-radius: 20px;
   border: 1px solid #482aff;
   padding: 10px 20px;
+  width: 100%;
 }
 
 .products-page .cards {
@@ -25,7 +26,7 @@
 }
 
 .product-search input {
-  width: 600px;
+  /* width: 600px; */
   border: none;
 }
 
@@ -56,11 +57,9 @@
   color: #00000033;
 }
 
-.container {
+.product-container {
   padding: 40px;
 }
-
-
 
 .products-page .cards .card {
   border: 1px dashed #482aff;
@@ -69,13 +68,12 @@
   cursor: pointer;
 }
 
-.products-page .cards .card .card-container  {
+.products-page .cards .card .card-container {
   /* padding: 50px; */
   /* border: 1px solid; */
   border-radius: 20px;
   background-color: #f2f0ff;
   padding: 30px;
-
 }
 
 .products-page .cards .card .card-img {
@@ -90,8 +88,7 @@
   border: 1px solid #482aff;
 }
 
-
-.products-page .cards .card .card-img span{
+.products-page .cards .card .card-img span {
   font-size: 20px;
 }
 .products-page .cards .card .card-img img {
@@ -113,7 +110,7 @@
   margin: 0;
 }
 
-.products-page .more-button{
+.products-page .more-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,11 +125,39 @@
   border-radius: 10px;
 }
 
-
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .products-page .cards {
-   
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media screen and (max-width:720px) {
+  .products-page .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .products-page .cards .card {
+    padding: 8px;
+  }
+
+  .products-page .cards .card .card-container{
+    padding:4px;
+    background-color: white;
+  }
+  .products-page .cards .card .card-img{
+    padding: 3px;
+  }
+  .products-page .cards .card .card-img span{
+    font-size: 12px;
+  }
+
+  .products-page .cards .card .card-content{
+    padding: 4px;
+  }
+
+  .products-page .cards .card .card-content p{
+    font-size: 14px;
   }
 }

@@ -37,7 +37,7 @@ const ProductsPage = ({ handlerSideClose }) => {
       <div className="col-md-12 main-about">
         <h2>Məhsullar</h2>
       </div>
-      <div className="container">
+      <div className="product-container">
         <div className="product-search">
           <div className="product-search-content">
             <input

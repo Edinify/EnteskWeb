@@ -36,7 +36,7 @@
     "react-redux": "^7.2.6",
     "react-responsive": "^9.0.0-beta.5",
     "react-router-dom": "^5.3.4",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "react-scroll-trigger": "^0.6.14",
     "react-slick": "^0.28.1",
     "react-spring": "^9.3.2",
@@ -54,10 +54,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "server": "json-server --watch data/data.json --port 3003 ",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts test",
+    "start": "react-scripts start --openssl-legacy-provider",
+    "build": "CI=false react-scripts  build  --openssl-legacy-provider",
+    "test": "react-scripts test --openssl-legacy-provider",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

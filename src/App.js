@@ -18,7 +18,7 @@ import Blogs from "./component/adminfolder/blogfolder/blogs";
 import { useDispatch } from "react-redux";
 import { getUser } from "./reducer/blogReducer/action";
 import Create from "./component/adminfolder/admin/create/create";
-import Metatesk from "./component/metatesk/Metatesk";
+// import Metatesk from "./component/metatesk/Metatesk";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import ProductDetails from "./pages/ProductsPage/Details/ProductDetails";
 import Category from "./pages/ProductsPage/Category/Category";

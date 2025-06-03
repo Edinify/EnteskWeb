@@ -15,7 +15,6 @@ import LoginAdmin from "./component/adminfolder/login/admin";
 import Teacher from "./component/adminfolder/teacherFolder/Teacher";
 import Admintimetable from "./component/adminfolder/admin/mainPanel/admintimetable";
 import Blogs from "./component/adminfolder/blogfolder/blogs";
-import Createblog from "./component/adminfolder/blogfolder/Createblog";
 import { useDispatch } from "react-redux";
 import { getUser } from "./reducer/blogReducer/action";
 import Create from "./component/adminfolder/admin/create/create";
@@ -23,7 +22,7 @@ import Metatesk from "./component/metatesk/Metatesk";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import ProductDetails from "./pages/ProductsPage/Details/ProductDetails";
 import Category from "./pages/ProductsPage/Category/Category";
-import BasketPage from "./pages/BasketPage/BasketPage";
+import SEO from "./component/Seo";
 
 function App() {
   const [div, setdiv] = useState(10);
@@ -43,6 +42,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <SEO/>
         <>
           <NavBar
             component={HomeBanner}
@@ -95,9 +95,9 @@ function App() {
             <Route path="/Create">
               <Create Create={{ div, setdiv }} />
             </Route>
-            <Route path="/metatesk">
+            {/* <Route path="/metatesk">
               <Metatesk />
-            </Route>
+            </Route> */}
             <Route path="/adminBlogs">
               <Blogs />
             </Route>

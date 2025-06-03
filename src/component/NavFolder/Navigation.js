@@ -386,9 +386,9 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                       ana səhifə
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://www.metatesk.co/"> metatesk </a>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       to={{
@@ -494,9 +494,9 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                       ana səhifə
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://www.metatesk.co/"> metatesk </a>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       to={{
@@ -642,9 +642,9 @@ const NavBar = ({ setZindex, setopenSide, openSide, Create }) => {
                   ana səhifə
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://www.metatesk.co/"> metatesk </a>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to={{

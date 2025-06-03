@@ -24,6 +24,8 @@ import ProductDetails from "./pages/ProductsPage/Details/ProductDetails";
 import Category from "./pages/ProductsPage/Category/Category";
 import SEO from "./component/Seo";
 
+// 
+
 function App() {
   const [div, setdiv] = useState(10);
   const dispatch = useDispatch();

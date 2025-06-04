@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet";
 const SEO = () => {
   return (
     <Helmet>
-      {/* Primary SEO */}
       <title>Entesk</title>
       <meta name="title" content="Entesk" />
       <meta
